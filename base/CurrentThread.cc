@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include "libanet/base/CurrentThread.h"
 
-namespace mudonet {
+namespace libanet {
 namespace CurrentThread {
 extern __thread int t_cachedTid = 0;
 extern __thread char t_tidString[32];
@@ -64,4 +64,4 @@ stackTrace(bool demangle) {
 }
 
 } // namespace CurrentThread
-} // namespace mudonet
+} // namespace libanet
