@@ -25,7 +25,7 @@ public:
 	string toString() const;
 	string toFormattedString(bool showMicroseconds = true) const;
 
-	bool valid(const) {
+	bool valid() const {
 		return microSecondsSinceEpoch_ > 0;
 	}
 
