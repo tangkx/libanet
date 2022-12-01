@@ -4,7 +4,7 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/home/sumu/workspace"
+                "/Users/tkx/workspace"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/clang"
