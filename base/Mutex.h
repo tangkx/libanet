@@ -2,8 +2,8 @@
 #define LIBANET_BASE_MUTEX_H
 
 #include "libanet/base/noncopyable.h"
-#include <pthread.h>
 #include <assert.h>
+#include <pthread.h>
 
 #define MCHECK(ret)                                                            \
 	({                                                                         \
@@ -14,7 +14,7 @@
 
 namespace libanet {
 
-class MutexLock : noncopyable {
+class MutexLock : libanet::noncopyable {
 public:
 	MutexLock() : holder_(0) {
 		MCHECK(pthread_mutex_init(&mutex_, NULL));
