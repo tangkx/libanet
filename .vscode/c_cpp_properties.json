@@ -4,10 +4,12 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/Users/tkx/workspace"
+                "/root/**"
             ],
             "defines": [],
-            "compilerPath": "/usr/bin/clang"
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c11",
+            "cppStandard": "c++11"
         }
     ],
     "version": 4
