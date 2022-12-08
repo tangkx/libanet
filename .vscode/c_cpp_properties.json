@@ -5,6 +5,7 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "/root/**",
+                "/root",
                 "/root"
             ],
             "defines": [],
