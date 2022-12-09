@@ -27,7 +27,7 @@ public:
 		return repeat_;
 	}
 
-	int64_t sequece() const {
+	int64_t sequence() const {
 		return sequence_;
 	}
 

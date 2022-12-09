@@ -30,15 +30,15 @@ public:
 	static Poller *newDefaultPoller(EventLoop *loop);
 
 	void assertInLoopThread() const {
-		owerLoop_->assertInLoopThread();
+		ownerLoop_->assertInLoopThread();
 	}
 
 protected:
 	typedef std::map<int, Channel *> ChannelMap;
-	ChannelMap channel_s;
+	ChannelMap channels_;
 
 private:
-	EventLoop *owerLoop_;
+	EventLoop *ownerLoop_;
 };
 
 } // namespace net
