@@ -4,10 +4,6 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/root/**",
-                "/root",
-                "/root",
-                "/root",
                 "/root"
             ],
             "defines": [],
